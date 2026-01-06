@@ -1,0 +1,45 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/bente/PlatformIO/Projects/Counter_C/include",
+                "/home/bente/PlatformIO/Projects/Counter_C/src",
+                "/home/bente/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "/home/bente/.platformio/packages/framework-cmsis-stm32f4/Include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/bente/PlatformIO/Projects/Counter_C/include",
+                    "/home/bente/PlatformIO/Projects/Counter_C/src",
+                    "/home/bente/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "/home/bente/.platformio/packages/framework-cmsis-stm32f4/Include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "STM32F4",
+                "STM32F407xx",
+                "STM32F40_41xxx",
+                "F_CPU=168000000L",
+                "__PLATFORMIO_BUILD_DEBUG__",
+                ""
+            ],
+            "compilerPath": "/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

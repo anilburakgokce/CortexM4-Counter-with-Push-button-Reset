@@ -1,0 +1,3 @@
+# Start GDB server on port 3333
+# The "true" parameter tells Renode to wait for GDB to connect before starting
+machine StartGdbServer 3333 true
